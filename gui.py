@@ -1,5 +1,3 @@
-# gui.py
-
 import csv
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QHBoxLayout, QSizePolicy, QSpacerItem
 from PyQt6.QtGui import QColor
@@ -64,9 +62,9 @@ class GUI(QWidget):
         
         # Add Submit button
         submit_layout = QHBoxLayout()
-        submit_layout.addStretch(1)  # Add horizontal stretch to center button
+        submit_layout.addStretch(1)  
         submit_layout.addWidget(self.submit_button)
-        submit_layout.addStretch(1)  # Add horizontal stretch to center button
+        submit_layout.addStretch(1)  
         layout.addLayout(submit_layout)
         
         layout.addWidget(QLabel())  # Empty label for one line of whitespace
